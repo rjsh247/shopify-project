@@ -1,0 +1,35 @@
+{
+  "name": "shopify_projects",
+  "version": "12.16.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "@shopify/koa-shopify-auth": "^4.0.3",
+    "@shopify/koa-shopify-graphql-proxy": "^4.1.2",
+    "@shopify/koa-shopify-webhooks": "^2.6.2",
+    "dotenv": "^8.2.0",
+    "fs.promises": "^0.1.2",
+    "isomorphic-fetch": "^3.0.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "koa-session": "^6.1.0",
+    "next": "^10.0.9",
+    "ngrok": "^3.4.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.4.1"
+  }
+}
